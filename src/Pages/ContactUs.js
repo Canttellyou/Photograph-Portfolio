@@ -20,19 +20,19 @@ const ContactUs = () => {
       <div>
         <Hide>
           <Social variants={titleAnimation}>
-            <Circle />
+            <Circle></Circle>
             <h2>Send Us A Message</h2>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
-            <Circle />
+            <Circle></Circle>
             <h2>Send An Email</h2>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
-            <Circle />
+            <Circle></Circle>
             <h2>Social Media</h2>
           </Social>
         </Hide>
