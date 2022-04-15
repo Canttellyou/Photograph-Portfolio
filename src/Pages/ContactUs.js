@@ -20,19 +20,19 @@ const ContactUs = () => {
       <div>
         <Hide>
           <Social variants={titleAnimation}>
-            <Circle></Circle>
+            <Circle>.</Circle>
             <h2>Send Us A Message</h2>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
-            <Circle></Circle>
+            <Circle>.</Circle>
             <h2>Send An Email</h2>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
-            <Circle></Circle>
+            <Circle>.</Circle>
             <h2>Social Media</h2>
           </Social>
         </Hide>
@@ -57,13 +57,10 @@ const Hide = styled.div`
   overflow: hidden;
 `;
 const Circle = styled.div`
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
+  font-size: 3rem;
   background: #353535;
   @media (max-width: 600px) {
-    width: 1rem;
-    height: 1rem;
+    font-size: 1.5rem;
   }
 `;
 const Social = styled(motion.div)`
