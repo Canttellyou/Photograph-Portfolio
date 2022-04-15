@@ -62,7 +62,8 @@ const Circle = styled.div`
   height: 3rem;
   background: #353535;
   @media (max-width: 600px) {
-    display: none;
+    width: 1rem;
+    height: 1rem;
   }
 `;
 const Social = styled(motion.div)`
