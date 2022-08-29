@@ -1,5 +1,5 @@
 import React from "react";
-import home1 from "../img/home1.png";
+import home1 from "../img/porthead2.jpg";
 import { About, Description, Image, Hide } from "../style";
 import { Link } from "react-router-dom";
 
@@ -13,23 +13,18 @@ const AboutSection = () => {
     <About>
       <Description>
         <motion.div>
-          <Hide>
-            <motion.h2 variants={titleAnimation}>We work to make</motion.h2>
-          </Hide>
+
           <Hide>
             <motion.h2 variants={titleAnimation}>
-              your <span>dreams</span> come
+              <span>JayDev.</span>
             </motion.h2>
           </Hide>
-          <Hide>
-            <motion.h2 variants={titleAnimation}>true.</motion.h2>
-          </Hide>
+
           <motion.p variants={fade}>
-            Contact us for any photography or videography ideas that you have.
-            We have professionals with amazing skills.
+            I am a highly motivated software engineer with expertise in JavaScript, CSS, Python, C, C++, React.js, Data Analysis and Cloud Engineering. I am well organized, detail oriented, and a team player with prolific leadership and soft skills. I possess strong analytical research, and time management skills with a high degree of commitment to my work.
           </motion.p>
           <Link to="/contact">
-            <motion.button variants={fade}>Contact Us</motion.button>
+            <motion.button variants={fade}>Let's talk</motion.button>
           </Link>
         </motion.div>
       </Description>

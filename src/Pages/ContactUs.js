@@ -21,19 +21,20 @@ const ContactUs = () => {
         <Hide>
           <Social variants={titleAnimation}>
             <Circle>.</Circle>
-            <h2>Send Us A Message</h2>
+            <a href="mailto: akbar123jason@gmail.com"><h2>Send An Email</h2></a>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
             <Circle>.</Circle>
-            <h2>Send An Email</h2>
+            <a href="https://www.linkedin.com/in/jason-akbar-2813bb21a/"><h2>LinkedIn</h2></a>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
             <Circle>.</Circle>
-            <h2>Social Media</h2>
+            <a href="https://twitter.com/Jaydevop"><h2>Twitter</h2></a>
+
           </Social>
         </Hide>
       </div>
@@ -66,6 +67,10 @@ const Circle = styled.div`
 const Social = styled(motion.div)`
   display: flex;
   align-items: center;
+  a:link,a:visited,a:active{
+    text-decoration: none;
+    color:black;
+  }
   h2 {
     font-size: 3rem;
     margin: 2rem;

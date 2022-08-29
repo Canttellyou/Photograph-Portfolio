@@ -1,5 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
+
+
+///Global colors
+export const themeBlue = { "Blue_Pigment": "#24319e", "Cobalt_Blue": "#24449f", "Bdazzled_Blue": "#24569f", "primary": "#34a5e6" }
+
 const GlobalStyle = createGlobalStyle`
     *{
         margin: 0;
@@ -10,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         background: #1b1b1b;
         font-family: 'Inter',sans-serif;
         overflow-x: hidden;
+        scroll-behavior: smooth;
     }
     button{
         font-weight: bold;

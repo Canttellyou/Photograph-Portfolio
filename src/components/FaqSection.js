@@ -18,43 +18,32 @@ const FaqSection = () => {
         Any Question ?<span>FAQ</span>
       </h2>
       <AnimateSharedLayout>
-        <Toggle title="How Do I Start">
+        <Toggle title="How long have you been doing this?">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>For more then 5 years.</p>
 
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
-              ea!
+              I've worked and built my experience with various programming languages over the course of my career.
             </p>
           </div>
         </Toggle>
         <Toggle title="Daily Schedule">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Well it's all about priorities.</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
-              ea!
+              I believe success must be wholesome. That's why in my schedule I make sure to always prioritize working out and reading books but mostly... It's all coding. If I'm not coding, I'm definitely watching something educative or taking a some fresh air.
             </p>
           </div>
         </Toggle>
-        <Toggle title="Different Payment Methods">
+        <Toggle title="Are you willing to work remotely?">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Yes!.</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
-              ea!
+              I'm always eager to work online, abroad or remotely. These do not hinder my progress or effectiveness. Hourly, weekly, monthly... I always believe we can always find a way to both win big.
             </p>
           </div>
         </Toggle>
-        <Toggle title="What Products Do You Offer">
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
-              ea!
-            </p>
-          </div>
-        </Toggle>
+
       </AnimateSharedLayout>
     </Faq>
   );

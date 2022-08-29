@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useScroll } from "../components/useScroll";
 //Images
-import athlete from "../img/athlete-small.png";
-import theracer from "../img/theracer-small.png";
-import goodtimes from "../img/goodtimes-small.png";
+import ignite from "../img/ignite.png";
+import jaymdb from "../img/jaymdb.png";
+import dalukwa from "../img/dalukwa.png";
 //Animations
 import { motion } from "framer-motion";
 import {
@@ -36,16 +36,16 @@ const OurWork = () => {
       </motion.div>
 
       <Movie>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>Ignite Games</motion.h2>
         <motion.div
           variants={lineAnimation}
           initial="hidden"
           animate="show"
           className="line"
         ></motion.div>
-        <Link to="/work/the-athlete">
-          <motion.img variants={photoAnimation} src={athlete} alt="athlete" />
-        </Link>
+        <a href="https://ignitevgames.netlify.app/" >
+          <motion.img variants={photoAnimation} src={ignite} alt="athlete" />
+        </a>
       </Movie>
       <Movie
         ref={element}
@@ -53,13 +53,13 @@ const OurWork = () => {
         animate={controls}
         initial="hidden"
       >
-        <h2>The Racer</h2>
+        <h2>JayMDB</h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/work/the-racer">
+        <a href="https://jaymdb.netlify.app/">
           <Hide>
-            <img src={theracer} alt="theracer" />
+            <img src={jaymdb} alt="theracer" />
           </Hide>
-        </Link>
+        </a>
       </Movie>
       <Movie
         ref={element2}
@@ -67,11 +67,11 @@ const OurWork = () => {
         animate={controls2}
         initial="hidden"
       >
-        <h2>Good Times</h2>
+        <h2>Dalukwa</h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
-        </Link>
+        <a href="https://www.dalukwa.com/">
+          <img src={dalukwa} alt="goodtimes" />
+        </a>
       </Movie>
     </Work>
   );
