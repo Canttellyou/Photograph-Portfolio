@@ -21,7 +21,9 @@ const AboutSection = () => {
           </Hide>
 
           <motion.p variants={fade}>
-            I am a highly motivated software engineer with expertise in JavaScript, CSS, Python, C, C++, React.js, Data Analysis and Cloud Engineering. I am well organized, detail oriented, and a team player with prolific leadership and soft skills. I possess strong analytical research, and time management skills with a high degree of commitment to my work.
+            My full name is Anim Jason Akbar and I'm a software engineer. I got this passion when I watched a friend code and thought it was super cryptic and difficult. I made up my mind to learn and hopefully master this strange world of programming. There's a lot to know about me and how we can work together to build great things. I want to hear from you soon...
+
+
           </motion.p>
           <Link to="/contact">
             <motion.button variants={fade}>Let's talk</motion.button>

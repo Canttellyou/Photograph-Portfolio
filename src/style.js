@@ -27,7 +27,7 @@ export const Description = styled.div`
     /* font-weight: lighter; */
     @media (max-width: 600px) {
       font-size: 2.5rem;
-      text-align: center;
+      
     }
   }
   @media (max-width: 600px) {
