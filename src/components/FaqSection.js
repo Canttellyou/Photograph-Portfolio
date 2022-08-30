@@ -31,7 +31,7 @@ const FaqSection = () => {
           <div className="answer">
             <p>Well it's all about priorities.</p>
             <p>
-              I believe success must be wholesome. That's why in my schedule I make sure to always prioritize working out and reading books but mostly... It's all coding. If I'm not coding, I'm definitely watching something educative or taking a some fresh air.
+              I believe success must be wholesome. That's why in my schedule I make sure to always prioritize working out and reading books but mostly... It's all coding. If I'm not coding, I'm definitely watching something educative or taking in some fresh air.
             </p>
           </div>
         </Toggle>
