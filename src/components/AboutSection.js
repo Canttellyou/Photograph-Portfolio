@@ -21,7 +21,7 @@ const AboutSection = () => {
           </Hide>
 
           <motion.p variants={fade}>
-            My full name is Anim Jason Akbar and I'm a software engineer. I got this passion when I watched a friend code and thought it was super cryptic and difficult. I made up my mind to learn and hopefully master this strange world of programming.
+            My full name is Anim Jason Akbar, a software engineer. I got this passion when I watched a friend code and thought it was super cryptic and difficult. I made up my mind to learn and hopefully master this strange world of programming.
 
 
 
