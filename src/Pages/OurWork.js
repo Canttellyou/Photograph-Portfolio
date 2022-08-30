@@ -98,6 +98,11 @@ const Movie = styled(motion.div)`
   img {
     width: 100%;
     height: 85vh;
+     @media (max-width: 600px) {
+    height: 55vh;
+      
+  }
+    border-radius:8px;
     object-fit: cover;
   }
 `;
