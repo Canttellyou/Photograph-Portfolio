@@ -37,7 +37,7 @@ const FaqSection = () => {
         </Toggle>
         <Toggle title="Are you willing to work remotely?">
           <div className="answer">
-            <p>Yes!.</p>
+            <p>Yes!</p>
             <p>
               I'm always eager to work online, abroad or remotely. These do not hinder my progress or effectiveness. Hourly, weekly, monthly... I always believe we can always find a way to both win big.
             </p>

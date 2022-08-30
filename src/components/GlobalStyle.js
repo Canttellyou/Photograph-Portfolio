@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 
 
 ///Global colors
-export const themeBlue = { "Blue_Pigment": "#24319e", "Cobalt_Blue": "#24449f", "Bdazzled_Blue": "#24569f", "primary": "#34a5e6" }
+export const themeBlue = { "Blue_Pigment": "#24319e", "Cobalt_Blue": "#24449f", "secondary": "#F4E999", "primary": "#95662B" }
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
         color: #23d997;
     }
    p{
-        padding: 3rem 0;
+   padding: 1.5rem 0;
     color: #ccc;
     font-size: 1.4rem;
     line-height: 150%;

@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import navgit from "../img/navgit.png";
+
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
@@ -12,7 +14,10 @@ const Nav = () => {
           Jason Akbar
         </Link>
       </h1>
+
+
       <ul>
+
         <li>
           <Link to="/">1.About</Link>
           <Line
@@ -37,6 +42,10 @@ const Nav = () => {
             animate={{ width: pathname === "/contact" ? "50%" : "0%" }}
           />
         </li>
+        <div className="github">
+          <a href="https://github.com/Canttellyou"><img src={navgit} alt="git" /></a>
+
+        </div>
       </ul>
     </StyledNav>
   );
@@ -52,6 +61,14 @@ const StyledNav = styled.nav`
   align-items: center;
   padding: 1rem 4rem;
   background-color: #282828;
+  .github{
+    margin-left: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    img{
+      width: 100%;
+      height:100%;    }
+  }
   a {
     color: white;
     text-decoration: none;
@@ -59,6 +76,7 @@ const StyledNav = styled.nav`
   ul {
     display: flex;
     list-style: none;
+    align-items: center;
     @media (max-width: 600px) {
       margin-top: 1rem;
     }
@@ -69,7 +87,7 @@ const StyledNav = styled.nav`
     font-weight: lighter;
   }
   li {
-    padding-left: 5rem;
+    padding-left: 4rem;
     position: relative;
     @media (max-width: 600px) {
       font-size: 1rem;

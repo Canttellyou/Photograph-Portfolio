@@ -10,6 +10,9 @@ import node from "../img/node-icon.png";
 import css_icon from "../img/css_icon.png";
 import sass_icon from "../img/sass-icon.png";
 import udemy from "../img/udemy.png";
+import github from "../img/github.svg";
+import redux from "../img/redux.svg";
+
 import aws from "../img/aws.png";
 import { useScroll } from "./useScroll";
 //Styles
@@ -51,6 +54,13 @@ const ServicesSection = () => {
           </Card>
           <Card className="card">
             <div className="icon">
+              <img src={github} alt="github" />
+
+            </div>
+
+          </Card>
+          <Card className="card">
+            <div className="icon">
               <img src={cplus} alt="cplus" />
 
             </div>
@@ -58,17 +68,23 @@ const ServicesSection = () => {
           </Card>
           <Card className="card">
             <a href="https://www.credly.com/badges/4634f373-347f-4752-8977-8162252f7488?source=linked_in_profile"><div className="icon">
-              <img src={udemy} alt="des-icon" />
+              <img src={aws} alt="des-icon" />
 
             </div></a>
 
 
           </Card>
 
+          <Card className="card">
+            <div className="icon">
+              <img src={redux} alt="github" />
 
+            </div>
+
+          </Card>
           <Card className="card">
             <a href="https://www.udemy.com/certificate/UC-5f6e6dde-b071-4ea4-a304-fc051c1311d4/"><div className="icon">
-              <img src={aws} alt="des-icon" />
+              <img src={udemy} alt="des-icon" />
 
             </div></a>
 
@@ -175,8 +191,8 @@ const Card = styled.div`
       padding: 1rem;
     }
     img{
-      width:7rem;
-      height:7rem;
+      width:6rem;
+      height:6rem;
       @media (max-width: 600px) {
     width:4rem;
       height:4rem;
