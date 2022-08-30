@@ -76,6 +76,7 @@ const StyledNav = styled.nav`
   ul {
     display: flex;
     list-style: none;
+    flex-wrap:wrap;
     align-items: center;
     @media (max-width: 600px) {
       margin-top: 1rem;

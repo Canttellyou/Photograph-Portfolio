@@ -133,7 +133,7 @@ const ServicesSection = () => {
     </Services>
   );
 };
-let curWidth = ``;
+
 
 
 const Services = styled(About)`
