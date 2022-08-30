@@ -20,7 +20,7 @@ const FaqSection = () => {
       <AnimateSharedLayout>
         <Toggle title="How long have you been doing this?">
           <div className="answer">
-            <p>For more then 5 years.</p>
+            <p>For more then 4 years.</p>
 
             <p>
               I've worked and built my experience with various programming languages over the course of my career.
