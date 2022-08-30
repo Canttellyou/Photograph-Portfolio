@@ -48,6 +48,9 @@ border-radius: 10px;
   img {
     width: 100%;
     height: 90vh;
+    @media (max-width: 600px) {
+   height: 70vh;
+  }
     object-fit: cover;
   }
 `;
