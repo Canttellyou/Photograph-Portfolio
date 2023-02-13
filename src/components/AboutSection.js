@@ -16,7 +16,7 @@ const AboutSection = () => {
 
           <Hide>
             <motion.h2 variants={titleAnimation}>
-              <span>JayDev.</span>
+              <span>Jason Akbar</span>
             </motion.h2>
           </Hide>
 
@@ -41,7 +41,7 @@ const AboutSection = () => {
           initial="hidden"
           animate="show"
           src={home1}
-          alt="guy with a camera"
+          alt="self portrait"
         />
       </Image>
       <Wave />
