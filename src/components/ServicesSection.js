@@ -35,7 +35,7 @@ const ServicesSection = () => {
     >
       <Description>
         <h2>
-          <span>Tools I use</span> 
+          <span>Tools I Use.</span> 
         </h2>
         <Cards>
           <Card className="card">
