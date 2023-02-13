@@ -16,7 +16,7 @@ const AboutSection = () => {
 
           <Hide>
             <motion.h2 variants={titleAnimation}>
-              <span>Jason Akbar</span>
+              <span>Jason Akbar.</span>
             </motion.h2>
           </Hide>
 
